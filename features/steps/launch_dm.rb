@@ -7,7 +7,6 @@ Given /^a campaign called (.+)$/ do |name|
 end
 
 Then /^launch the DM interface$/ do
-   thrd = $process.launch $mailer, "bin/carps_fools -h #{$campaign}"
-   thrd.join
+   CARPS::Process.singleton.launch $mailer, "bin/carps_fools -h #{$campaign}"
 end
 
