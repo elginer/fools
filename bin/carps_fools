@@ -20,4 +20,8 @@ require "carps"
 
 require "fools"
 
+include CARPS
+# A hack
+include CARPS::Dice
+
 CARPS::Launcher::launch Fools

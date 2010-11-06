@@ -20,7 +20,7 @@ require "carps/mod"
 module Fools
 
    # Fools dice
-   module Dice 
+   module Dice
 
       # How drunk will you get?
       def drink vim, resistance, quantity, target
