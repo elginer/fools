@@ -12,7 +12,7 @@ Hoe.plugin :cucumberfeatures
 # Run 'rake -T' to see list of generated tasks (from gem root directory)
 $hoe = Hoe.spec 'fools' do
   self.developer 'John Morrice', 'spoon@killersmurf.com'
-  self.post_install_message = 'PostInstall.txt'
+  self.post_install_message = File.read "PostInstall.txt"
   self.summary              = 'The Fools for CARPS'
   self.description          = "The Fools, copyright Ian Crowther, Sheila Thomas, Victoria Uren 1995-1996.\nsee http://www.granta.demon.co.uk/fools/\nThis is an implementation of The Fools for CARPS."
   self.rubyforge_name       = self.name 
