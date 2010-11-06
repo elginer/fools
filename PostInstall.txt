@@ -1,0 +1,31 @@
+The Fools.  Copyright John Morrice 2010. 
+
+The Fools is distributed for educational purposes: it is 
+intended to be used by programmers, as an aid in 
+learning how to write mods for CARPS.
+
+The Fools is loosely based on the rules of the Drones RPG:
+http://www.granta.demon.co.uk/drones/
+Copyright Ian Crowther, Sheila Thomas, Victoria Uren 1995-1996
+
+You should familiarise yourself with the rules before
+play, though note the following differences and quriks
+present in this CARPS mod:
+
+* Your character points are present on the character
+  sheet. These are your total character points, rather
+  than the points you have not yet spent available.  
+  Hence you should NOT reduce this value when you spend 
+  a point.  
+  As in the Fools rules, you should expect 
+  the Game Master to tell you how many points you have 
+  available before the game begins.
+
+* Two additional character attributes are added:
+  Intoxication and Discomfiture.
+  These attributes are to keep track of the transitory 
+  nature of drunkenness and being the subject of A Sound 
+  Drubbing, respectively.  
+  These values range from 0 to -10.  0 indicates 
+  sobreity or perfect health, while -10 represents a 
+  highly debilated state.
