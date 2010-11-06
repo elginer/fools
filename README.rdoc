@@ -10,10 +10,11 @@ The Fools.  Copyright John Morrice 2010.
 
 The Fools is distributed for educational purposes: it is 
 intended to be used by programmers, as an aid in 
-learning how to write mods for Fools.
+learning how to write mods for CARPS.
 
 The Fools is loosely based on the rules of the Drones RPG:
 http://www.granta.demon.co.uk/drones/
+
 Copyright Ian Crowther, Sheila Thomas, Victoria Uren 1995-1996
 
 You should familiarise yourself with the rules before
@@ -45,9 +46,11 @@ Fools
 == INSTALL:
 
 # This installs the gem
+
 sudo rake install_gem
 
 # This registers the mod with CARPS
+
 rake register_mod
 
 == LICENSE:
