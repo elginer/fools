@@ -1,4 +1,4 @@
-= The Fools, an example Fools mod 
+= The Fools, an example CARPS mod 
 
 == The Fools is hosted on github:
 
