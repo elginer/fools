@@ -1,6 +1,6 @@
 #!/usr/local/bin/ruby
 # Copyright 2010 John Morrice
- 
+
 # This file is part of The Fools.
 
 # The Fools is free software: you can redistribute it and/or modify
@@ -20,16 +20,16 @@ require "carps/util/init"
 
 require "yaml"
 
-# Update the CARPS mod file on a POSIX system
-   filename = CARPS::root_config + "mods.yaml"
-   contents = ""
-   contents = File.read filename
-   mods = {}
-   unless contents.empty?
-      mods = YAML::load contents
-   end
-   mods["fools"] = "carps_fools"
-   new_mods = mods.to_yaml
-   mod_file = File.open filename, "w"
-   mod_file.write new_mods
-   mod_file.close
+# Update the CARPS mod file
+filename = CARPS::root_config + "mods.yaml"
+contents = ""
+contents = File.read filename
+mods = {}
+unless contents.empty?
+mods = YAML::load contents
+end
+mods["fools"] = "carps_fools"
+new_mods = mods.to_yaml
+mod_file = File.open filename, "w"
+mod_file.write new_mods
+mod_file.close

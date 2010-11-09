@@ -5,6 +5,7 @@ PostInstall.txt
 README.rdoc
 Rakefile
 bin/carps_fools
+bin/register_carps_fools
 features/character_sheet.feature
 features/dice.feature
 features/dm_interface.feature
@@ -58,6 +59,7 @@ permission
 script/console
 script/destroy
 script/generate
-tasks/register_mod.rake
+tasks/readme_site.rake
 test/test_fools.rb
 test/test_helper.rb
+website/index.html
