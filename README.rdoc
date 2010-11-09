@@ -4,7 +4,7 @@
 
 * http://github.com/elginer/fools
 
-== DESCRIPTION:
+== Description:
 
 The Fools.  Copyright John Morrice 2010. 
 
@@ -15,7 +15,7 @@ learning how to write mods for CARPS.
 The Fools is loosely based on the rules of the Drones RPG:
 http://www.granta.demon.co.uk/drones/
 
-Copyright Ian Crowther, Sheila Thomas, Victoria Uren 1995-1996
+The Drones is Copyright Ian Crowther, Sheila Thomas, Victoria Uren 1995-1996
 
 You should familiarise yourself with the rules before
 play, though note the following differences and quriks
@@ -39,21 +39,21 @@ present in this Fools mod:
   sobreity or perfect health, while -10 represents a 
   highly debilated state.
 
-== REQUIREMENTS:
+== Requirements:
 
-Fools
+CARPS
 
-== INSTALL:
+== To Install:
 
-# This installs the gem
+<tt># This installs the gem</tt>
 
-sudo rake install_gem
+<tt>sudo gem install fools</tt>
 
-# This registers the mod with CARPS
+<tt># This registers the mod with CARPS</tt>
 
-rake register_mod
+<tt>rake register_mod</tt>
 
-== LICENSE:
+== License:
 
 Copyright 2010 John Morrice
  
