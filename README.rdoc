@@ -51,7 +51,7 @@ CARPS
 
 <tt># This registers the mod with CARPS</tt>
 
-<tt>rake register_mod</tt>
+<tt>register_carps_fools</tt>
 
 == License:
 
